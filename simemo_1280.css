@@ -1,0 +1,9 @@
+body {
+  font-family:Meiryo;
+}
+iframe {
+  border-style: none;
+}
+input, textarea {
+  font-family:Meiryo; font-size: medium; font-weight: lighter;
+}

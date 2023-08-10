@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="simemo.css">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+<title>Simple Memo</title>
+</head>
+<body onLoad="changeURL('1')">
+<script>
+//表示URL変更
+function changeURL(target){
+	document.getElementById("memo").src="./simemo.php?No="+target
+}
+</script>
+<iframe id="memo" width="100%" height="500px"></iframe>
+<form>
+<input type="radio" name="memo" checked onClick="changeURL('1')">メモ</input>
+<input type="radio" name="memo" onClick="changeURL('work')">work</input>
+<input type="radio" name="memo" onClick="changeURL('travel')">旅行チェックリスト</input>
+</form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+@adr='ftp.hecchar.main.jp'
+@user='main.jp-hecchar'
+@pwd='asas1113'
+@dir='simemo'
+@files=<<EOF
+index.html
+simemo.php
+simemo.css
+simemo_1000.css
+simemo_1280.css
+favicon.ico
+EOF
